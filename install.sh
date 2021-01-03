@@ -9,7 +9,7 @@ function error {
 
 sudo apt update
 # "${DIRECTORY}/pkg-install" "stress lxterminal gpicview python-pip unzip yad hdparm sysbench speedtest-cli" "$(dirname "$0")" || exit 1
-sudo apt install stress lxterminal gpicview python-pip unzip yad hdparm sysbench speedtest-cli
+sudo apt install -y stress lxterminal gpicview python-pip unzip yad hdparm sysbench speedtest-cli
 
 mkdir ~/rpi-benchmark | error "failed to create directory!"
 mkdir ~/rpi-benchmark/linpack
