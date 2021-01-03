@@ -7,7 +7,7 @@ if [ ! `which speedtest-cli` ]; then
   sudo apt-get install -y speedtest-cli
 fi
 
-/usr/bin/speedtest-cli
+/usr/bin/speedtest-cli --simple
 
 echo ""
 echo "Close this window to exit."
