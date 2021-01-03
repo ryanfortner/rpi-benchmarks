@@ -15,17 +15,17 @@ if [[ $foo -eq 1 ]]; then
 exit 0
 
 elif [[ $foo -eq 2 ]]; then
-~/rpi-benchmark/all/all.sh && exit 0
+lxterminal ~/rpi-benchmark/all/all.sh && exit 0
 
 elif [[ $foo -eq 3 ]]; then
-~/rpi-benchmark/glmark2/glmark2.sh && exit 0
+lxterminal ~/rpi-benchmark/glmark2/glmark2.sh && exit 0
 
 elif [[ $foo -eq 4 ]]; then
-~/rpi-benchmark/vkmark/vkmark.sh && exit 0
+lxterminal ~/rpi-benchmark/vkmark/vkmark.sh && exit 0
 
 elif [[ $foo --eq 5 ]]; then
-~/rpi-benchmark/internet-speedtest/internet-speedtest.sh && exit 0
+lxterminal ~/rpi-benchmark/internet-speedtest/internet-speedtest.sh && exit 0
 
 else
-~/rpi-benchmark/stressberry/stressberry.sh && exit 0
+lxterminal ~/rpi-benchmark/stressberry/stressberry.sh && exit 0
 fi
