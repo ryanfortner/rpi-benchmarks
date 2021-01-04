@@ -35,7 +35,7 @@ See also ReadMe.txt in Java, OpenGL, DriveSpeed, LanSpeed and
 Temperature_MHz_Test folders.
 
 NOTE - After unzipping, the benchmark execution file Properties,
-Permissions needs a “Make the file executable” selection.   
+Permissions needs a â€œMake the file executableâ€ selection.   
 
 NEON benchmarks now included in NEON folder and added compile 
 statements in Source Code folder. 
