@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Whetstone Benchmark Java Version</title>
+</head>
+
+<body bgcolor="#e0e0e0" vLink=#500000 aLink=#555555 link=#000099>
+<table bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" width="790" align=center>
+ <tr>
+  <td>
+    <table border="0" cellspacing="0" cellpadding="0" width="95%" align=center>
+     <tr>
+      <td>
+       <center>
+       <br>
+       <font face="arial" size="5" color="#0000ff">
+       Whetstone Benchmark Java Version
+       </font>
+       <font face="arial" size="1" color="#0000ff">
+       <br>
+       For the benchmark to run, Java Runtime Environment (JRE) or Java Virtual Machine (JVM) needs to be installed. These and other security settings might also need to be enabled.
+       The results will be on a blue background below. To save them, use print/copy screen facilities and paste into a graphics package. 
+       <br>
+       To rerun, click on the Refresh/Reload Current Page icon. <b>WARNING - </b>There can be a considerable delay before the benchmark actually starts. 
+       </font>
+      <br><br>
+      <applet code=whets2.class width=500 height=325></applet>
+      </center>
+       <font face="arial" size="2" color="#0000ff">
+       <br>
+       This is a revised version of the  on-line benchmark produced in 1997. See below for details. Old and new benchmarks, including the Java source code, can be found in: 
+       <br><br>
+       <center>
+       <a href="http://www.roylongbottom.org.uk/onlinetests.zip">onlinetests.zip for Windows</a> or 
+       <a href="http://www.roylongbottom.org.uk/onlinetests.tar.gz">onlinetests.tar.gz for Linux</a>
+       <br><br>
+       </center>
+       Introduced in 1972, the original Whetstone Benchmark provided a performance rating in terms of Million Whetstone Instructions Per Second or MWIPS. This, and other later versions, also measure the speeds of individual test functions in Million Operations or Floating point Operations Per Second (MOPS or MFLOPS). Note that, using the same software and processor model, measured speeds can be expected to be proportional to CPU MHz. See the following: 
+       <br><br>
+       <center>
+      
+       <a href="http://www.roylongbottom.org.uk/whetstone.htm">Whetstone Benchmark History and (Old) Results</a>
+       <br><br>
+       <a href="http://www.roylongbottom.org.uk/whetstone%20results.htm#anchorjava">Whetstone Benchmark Detailed Results On PCs - Java</a>
+       <br><br>
+       <a href="http://www.roylongbottom.org.uk/whetstone.htm#anchorPC2">Java Performance - Comparison with other programming languages</a>
+       <br><br>
+       <a href="http://www.roylongbottom.org.uk/index.htm">Roy Longbottom’s PC Benchmark Collection</a>
+       <br><br>
+       </center>
+       <h3>Output Format</h3>
+       <p>The benchmark was also compiled to display results in a Windowe Command Prompt or Linux Terminal display, via a “java whetstc” command, with details also being saved in a whets.txt log file. All outputs have the same format, as follows:
+       <table border="0" cellspacing="0" cellpadding="0" width="75%"  align=center>
+        <tr>
+         <td>
+         <pre>
+
+     Whetstone Benchmark Java Version, Dec 8 2011, 15:39:00
+
+                                                       1 Pass
+  Test                  Result       MFLOPS     MOPS  millisecs
+
+  N1 floating point  -1.124750137    905.66             0.0212
+  N2 floating point  -1.131330490    720.26             0.1866
+  N3 if then else     1.000000000            1005.83    0.1029
+  N4 fixed point     12.000000000            1923.08    0.1638
+  N5 sin,cos etc.     0.499110132              43.72    1.9030
+  N6 floating point   0.999999821    500.84             1.0770
+  N7 assignments      3.000000000             643.90    0.2870
+  N8 exp,sqrt etc.    0.825148463              33.57    1.1080
+
+  MWIPS                             2062.07             4.8495
+
+  Operating System    Windows 7, Arch. amd64, Version 6.1
+  Java Vendor         Sun Microsystems Inc., Version  1.6.0_21
+  CPU AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD
+
+  Or
+
+  Operating System    Linux, Arch. amd64, Version 2.6.35-24-generic
+  Java Vendor         Sun Microsystems Inc., Version  1.6.0_20
+  CPU null
+         </pre>
+         </td>
+        </tr>
+       </table>
+       <h3>Old and New Version Differences</h3>
+       <p>The original Java benchmark was run for 100 seconds, needed because of the wide variation in the time taken by the different tests and possible timer resolution issues. There was a Run button to start testing. It also provided tests to measure graphics speed. When run under Linux, using the Firefox browser, there were text formatting issues and false speed indications due to compiler over-optimisation. 
+       <p>In the latest version, slight changes were made to the programming code to avoid the optimisation issues. This time, all tests are run for a minimum of one second, with running time milliseconds being adjusted to determine speeds of a single pass, using the original loop count parameters. Execution of the benchmark starts automatically on loading, sometimes with an inexplicable delay, or after clicking on the refresh symbol. 
+       <p><b>NOTE - </b>Using both on-line versions, displayed results might be obliterated if the page is resized, moved, scrolled or overlaid by another window.  
+       <br><br>
+       <br><br>
+       <center>
+       <b>Roy Longbottom December 2011</b>
+       </center>
+       <br><br>
+       </font>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+</body>
+</html>

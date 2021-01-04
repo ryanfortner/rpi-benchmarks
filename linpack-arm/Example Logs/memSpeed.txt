@@ -1,0 +1,93 @@
+ #####################################################
+
+     Memory Reading Speed Test 32 Bit Version 4 by Roy Longbottom
+
+               Start of test Mon May 20 10:25:17 2013
+
+  Memory   x[m]=x[m]+s*y[m] Int+   x[m]=x[m]+y[m]         x[m]=y[m]
+  KBytes    Dble   Sngl  Int32   Dble   Sngl  Int32   Dble   Sngl  Int32
+    Used    MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S
+
+       8     538    640    930    602    731   1094   1230    465    465
+      16     568    602    787    602    731   1023   1000    426    507
+      32     292    256    310    276    262    330   1066    426    547
+      64     276    238    276    262    238    292    341    269    284
+     128     189    170    193    182    170    200    222    196    204
+     256     140    129    142    136    129    144    138    119    124
+     512     138    127    138    134    127    144    131    111    119
+    1024     136    127    138    134    127    144    124    111    119
+    2048     136    127    138    132    128    144    128    111    121
+    4096     136    128    138    134    126    144    128    111    119
+    8192     138    127    138    136    127    144    126    111    119
+
+                End of test Mon May 20 10:26:06 2013
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - none
+
+ #####################################################
+
+     Memory Reading Speed Test 32 Bit Version 4 by Roy Longbottom
+
+               Start of test Mon May 20 10:34:09 2013
+
+  Memory   x[m]=x[m]+s*y[m] Int+   x[m]=x[m]+y[m]         x[m]=y[m]
+  KBytes    Dble   Sngl  Int32   Dble   Sngl  Int32   Dble   Sngl  Int32
+    Used    MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S
+
+       8     602    640   1185    930   1163   1662   1422    511    761
+      16     787    930   1292    853   1023   1523   1777    537    761
+      32     487    426    487    465    426    568   1939    820   1142
+      64     465    393    465    426    393    511    592    457    508
+     128     330    310    341    320    301    365    341    301    341
+     256     208    200    213    204    200    217    196    170    189
+     512     204    200    213    200    200    213    196    176    182
+    1024     213    200    208    200    200    217    196    170    182
+    2048     204    196    213    204    200    217    196    170    182
+    4096     204    200    213    200    200    217    196    170    182
+    8192     204    200    213    200    200    218    204    169    182
+
+                End of test Mon May 20 10:34:42 2013
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - oc 1000

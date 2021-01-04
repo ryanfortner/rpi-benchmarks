@@ -1,0 +1,89 @@
+
+ #####################################################
+
+   BusSpeed 32 Bit V1.1 Wed May 22 15:29:39 2013
+ 
+    Reading Speed 4 Byte Words in MBytes/Second
+  Memory  Inc32  Inc16   Inc8   Inc4   Inc2   Read
+  KBytes  Words  Words  Words  Words  Words    All
+
+      16    290    284    568    984   1125   1142
+      32    133    116    131    121    232    450
+      64    107    106    116    101    204    409
+     128     65     63     64     68    126    299
+     256     34     34     32     43     88    192
+     512     34     32     34     45     91    200
+    1024     34     31     34     45     91    181
+    4096     32     33     33     45     87    183
+   16384     32     34     38     44     83    186
+   65536     34     32     34     44     88    181
+
+        End of test Wed May 22 15:29:51 2013
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - none
+
+ #####################################################
+
+   BusSpeed 32 Bit V1.1 Wed May 22 15:38:14 2013
+ 
+    Reading Speed 4 Byte Words in MBytes/Second
+  Memory  Inc32  Inc16   Inc8   Inc4   Inc2   Read
+  KBytes  Words  Words  Words  Words  Words    All
+
+      16    290    387    984   1505   1575   1750
+      32    246    186    232    232    393    731
+      64    146    113    131    148    273    546
+     128    102     87     93    113    210    420
+     256     53     48     53     75    131    303
+     512     48     48     50     75    137    300
+    1024     48     50     49     69    139    305
+    4096     50     52     52     72    134    299
+   16384     48     52     52     69    139    296
+   65536     49     52     49     72    139    291
+
+        End of test Wed May 22 15:38:26 2013
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - oc 1000
+

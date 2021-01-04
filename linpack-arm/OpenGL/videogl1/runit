@@ -1,0 +1,5 @@
+export vblank_mode=0
+./videogl32 Width 320, Height 240, NoEnd
+./videogl32 Width 640, Height 480, NoHeading, NoEnd
+./videogl32 Width 1024, Height 768, NoHeading, NoEnd
+./videogl32 NoHeading

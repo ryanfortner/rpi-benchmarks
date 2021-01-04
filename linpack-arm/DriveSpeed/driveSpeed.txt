@@ -1,0 +1,50 @@
+ #####################################################
+
+   DriveSpeed RasPi 1.1 Mon Dec 16 15:22:54 2013
+ 
+ Selected File Path: 
+ /media/ExtremeF/
+ Total MB   30518, Free MB   30518, Used MB       0
+
+                        MBytes/Second
+  MB   Write1   Write2   Write3    Read1    Read2    Read3
+
+   8    16.24    17.46    17.50    26.16    26.07    26.19
+  16    17.20    17.31    16.18    25.91    26.12    26.04
+ Cached
+   8    35.54    35.92    38.31   124.74   121.66   119.23
+
+ Random         Read                       Write
+ From MB        4        8       16        4        8       16
+ msecs      0.894    0.891    0.871     1.36     1.15     0.79
+
+ 200 Files      Write                      Read                  Delete
+ File KB        4        8       16        4        8       16     secs
+ MB/sec      0.87     1.83     3.34     4.10     6.41    10.46
+ ms/file     4.73     4.47     4.91     1.00     1.28     1.57    0.469
+
+
+                End of test Mon Dec 16 15:23:24 2013
+
+ SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 697.95
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #557 PREEMPT Wed Oct 2 18:49:09 BST 2013
+ 
+
+ Additional information - Extreme FAT

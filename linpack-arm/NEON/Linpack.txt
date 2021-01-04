@@ -1,0 +1,35 @@
+
+  ########################################################
+
+ linpackPiNEONi
+
+ Linpack Single Precision Benchmark n @ 100
+  Using NEON Intrinsics, Fri Mar 13 04:18:35 2015
+
+ Speed     300.39 MFLOPS
+
+ Variable norm. resid Non-standard result was              2.2 instead of              1.6
+ Variable resid       Non-standard result was   5.16722466e-05 instead of   3.80277634e-05
+ Variable x[0]-1      Non-standard result was  -2.38418579e-07 instead of  -1.38282776e-05
+ Variable x[n-1]-1    Non-standard result was  -5.06639481e-06 instead of  -7.51018524e-06
+
+ Compiler #define or values in linpack.c might need to be changed
+
+ ########################################################
+
+ linpackPiFSSP
+
+ Linpack Single Precision Unrolled Benchmark n @ 100
+ Optimisation NEON 32 Bit, Fri Mar 13 04:35:26 2015
+
+ Speed     311.06 MFLOPS
+
+ Variable norm. resid Non-standard result was              1.9 instead of              1.6
+ Variable resid       Non-standard result was   4.62468779e-05 instead of   3.80277634e-05
+ Variable x[0]-1      Non-standard result was  -1.31130219e-05 instead of  -1.38282776e-05
+ Variable x[n-1]-1    Non-standard result was  -1.30534172e-05 instead of  -7.51018524e-06
+
+ Compiler #define or values in linpack.c might to be changed
+
+
+ 

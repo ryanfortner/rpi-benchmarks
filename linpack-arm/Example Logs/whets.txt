@@ -1,0 +1,84 @@
+
+##############################################
+
+Whetstone Single Precision C Benchmark  Opt 3 32 Bit, Wed May 15 16:41:59 2013
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156        97.811               0.053
+N2 floating point      -1.12274742126464844       100.800               0.360
+N3 if then else         1.00000000000000000                 698.625     0.040
+N4 fixed point         12.00000000000000000                 425.250     0.200
+N5 sin,cos etc.         0.49911010265350342                   5.850     3.840
+N6 floating point       0.99999982118606567        85.669               1.700
+N7 assignments          3.00000000000000000                 498.960     0.100
+N8 exp,sqrt etc.        0.75110864639282227                   2.722     3.690
+
+MWIPS                                             270.460               9.983
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - none
+
+
+##############################################
+
+Whetstone Single Precision C Benchmark  Opt 3 32 Bit, Wed May 15 16:55:14 2013
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       136.844               0.055
+N2 floating point      -1.12274742126464844       146.347               0.360
+N3 if then else         1.00000000000000000                1014.300     0.040
+N4 fixed point         12.00000000000000000                 617.400     0.200
+N5 sin,cos etc.         0.49911010265350342                   8.471     3.850
+N6 floating point       0.99999982118606567       122.933               1.720
+N7 assignments          3.00000000000000000                 804.907     0.090
+N8 exp,sqrt etc.        0.75110864639282227                   3.920     3.720
+
+MWIPS                                             390.633              10.035
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - 1000 MHz
+

@@ -1,0 +1,70 @@
+ #####################################################
+
+ Dhrystone Benchmark 2.1 Opt 3 32 Bit, Wed May 15 16:40:35 2013
+
+ Nanoseconds one Dhrystone run:       671.88
+ Dhrystones per Second:              1488372
+ VAX MIPS rating =                    847.11
+
+ Numeric results were correct
+
+ #####################################################
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - none
+
+ #####################################################
+
+ Dhrystone Benchmark 2.1 Opt 3 32 Bit, Wed May 15 16:49:51 2013
+
+ Nanoseconds one Dhrystone run:       464.06
+ Dhrystones per Second:              2154882
+ VAX MIPS rating =                   1226.46
+
+ Numeric results were correct
+
+ #####################################################
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - 1000MHz
+

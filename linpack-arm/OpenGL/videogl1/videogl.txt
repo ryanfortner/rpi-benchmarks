@@ -1,0 +1,64 @@
+ #####################################################################
+
+
+From File /proc/cpuinfo
+processor	: 0
+model name	: ARMv7 Processor rev 5 (v7l)
+BogoMIPS	: 38.40
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 5
+
+processor	: 1
+model name	: ARMv7 Processor rev 5 (v7l)
+BogoMIPS	: 38.40
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 5
+
+processor	: 2
+model name	: ARMv7 Processor rev 5 (v7l)
+BogoMIPS	: 38.40
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 5
+
+processor	: 3
+model name	: ARMv7 Processor rev 5 (v7l)
+BogoMIPS	: 38.40
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: Linux version 4.1.19-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #858 SMP Tue Mar 15 15:56:00 GMT 2016
+
+
+From File /proc/version
+Linux version 4.1.19-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #858 SMP Tue Mar 15 15:56:00 GMT 2016
+
+ #####################################################################
+
+ GLUT OpenGL Benchmark 32 Bit Version 1, Tue Apr 19 09:02:30 2016
+
+          Running Time Approximately 5 Seconds Each Test
+
+ Window Size  Coloured Objects  Textured Objects  WireFrm  Texture
+    Pixels        Few      All      Few      All  Kitchen  Kitchen
+  Wide  High      FPS      FPS      FPS      FPS      FPS      FPS
+
+   320   240    210.3    114.4     52.6     32.5     12.1      7.8
+   640   480    115.0     89.5     48.5     30.6     11.9      7.7
+  1024   768     47.9     46.7     37.5     28.3     11.6      7.6
+  1920  1080     20.6     18.6     16.8     15.9     11.4      7.4
+
+                   End at Tue Apr 19 09:04:45 2016
+

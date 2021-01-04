@@ -1,0 +1,22 @@
+  *************************************************************
+
+     Whetstone Benchmark Java Version, May 28 2013, 13:55:45
+
+                                                       1 Pass
+  Test                  Result       MFLOPS     MOPS  millisecs
+
+  N1 floating point  -1.124750137    892.19             0.0215
+  N2 floating point  -1.131330490    706.18             0.1903
+  N3 if then else     1.000000000             829.33    0.1248
+  N4 fixed point     12.000000000            1726.03    0.1825
+  N5 sin,cos etc.     0.499110132              45.99    1.8090
+  N6 floating point   0.999999821    493.96             1.0920
+  N7 assignments      3.000000000             636.80    0.2902
+  N8 exp,sqrt etc.    0.825148463              33.60    1.1070
+
+  MWIPS                             2075.83             4.8173
+
+  Operating System    Windows 7, Arch. amd64, Version 6.1
+  Java Vendor         Oracle Corporation, Version  1.7.0_02
+  CPU AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD
+

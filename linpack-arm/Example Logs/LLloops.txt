@@ -1,0 +1,80 @@
+ #####################################################
+
+ Livermore Loops Benchmark Opt 3 32 Bit via C/C++ Wed May 15 16:43:46 2013
+
+ MFLOPS for 24 loops
+   65.5   79.8  132.6  141.1   24.0   29.8  111.8  129.7   90.7   38.7   31.8   25.2
+   22.1   17.6   61.0   59.2   82.3   60.3   74.2   48.6   29.5   22.6   67.1   29.5
+
+ Overall Ratings
+ Maximum Average Geomean Harmean Minimum
+   148.8    64.6    55.0    46.6    17.6
+
+ Numeric results were as expected
+
+ ########################################################
+
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - none
+
+ #####################################################
+
+ Livermore Loops Benchmark Opt 3 32 Bit via C/C++ Wed May 15 16:52:58 2013
+
+ MFLOPS for 24 loops
+   97.0  116.2  197.2  206.0   37.4   47.2  169.0  185.6  132.6   57.4   46.2   35.9
+   32.7   32.0   89.7   85.6  118.4   88.8  107.1   75.6   47.6   32.4  106.0   42.6
+
+ Overall Ratings
+ Maximum Average Geomean Harmean Minimum
+   216.8    94.8    80.8    68.7    29.3
+
+ Numeric results were as expected
+
+ ########################################################
+
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 464.48
+Features	: swp half thumb fastmult vfp edsp java tls 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 00000000db690cb4
+ 
+
+From File /proc/version
+Linux version 3.6.11+ (dc4@dc4-arm-01) (gcc version 4.7.2 20120731 (prerelease) (crosstool-NG linaro-1.13.1+bzr2458 - Linaro GCC 2012.08) ) #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013
+ 
+
+Additional information - 1000 MHz
+
