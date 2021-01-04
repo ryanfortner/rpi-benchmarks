@@ -1,0 +1,132 @@
+ New Version 2016 - ARM MHz needed for throttling measurements
+
+ Using 60 samples at 16 second intervals
+
+ Boot Settings
+
+ dtparam=audio=on
+ dtoverlay=vc4-kms-v3d
+
+ Seconds
+    0.0     1200 scaling MHz,   1200 ARM MHz, temp=62.8'C
+   16.0     1200 scaling MHz,   1200 ARM MHz, temp=77.4'C
+   32.1     1200 scaling MHz,    992 ARM MHz, temp=82.2'C
+   48.2     1200 scaling MHz,    845 ARM MHz, temp=83.8'C
+   64.3     1200 scaling MHz,    765 ARM MHz, temp=84.4'C
+   80.4     1200 scaling MHz,    739 ARM MHz, temp=84.9'C
+   96.5     1200 scaling MHz,    739 ARM MHz, temp=84.9'C
+  112.6     1200 scaling MHz,    600 ARM MHz, temp=84.4'C
+  128.8     1200 scaling MHz,    709 ARM MHz, temp=84.9'C
+  144.9     1200 scaling MHz,    600 ARM MHz, temp=84.4'C
+  161.1     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  177.2     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  193.3     1200 scaling MHz,    798 ARM MHz, temp=84.9'C
+  209.4     1200 scaling MHz,    783 ARM MHz, temp=85.4'C
+  225.4     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  241.7     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  257.8     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  274.0     1200 scaling MHz,    851 ARM MHz, temp=84.4'C
+  290.1     1200 scaling MHz,    704 ARM MHz, temp=85.4'C
+  306.1     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  322.3     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  338.4     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  354.6     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  370.8     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  387.0     1200 scaling MHz,    852 ARM MHz, temp=84.9'C
+  403.1     1200 scaling MHz,    891 ARM MHz, temp=83.8'C
+  419.2     1200 scaling MHz,    828 ARM MHz, temp=84.4'C
+  435.3     1200 scaling MHz,    883 ARM MHz, temp=84.4'C
+  451.4     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  467.6     1200 scaling MHz,    902 ARM MHz, temp=83.8'C
+  483.7     1200 scaling MHz,    864 ARM MHz, temp=84.4'C
+  499.8     1200 scaling MHz,    845 ARM MHz, temp=84.9'C
+  515.9     1200 scaling MHz,    874 ARM MHz, temp=83.8'C
+  532.0     1200 scaling MHz,    715 ARM MHz, temp=85.4'C
+  548.1     1200 scaling MHz,    600 ARM MHz, temp=84.4'C
+  564.4     1200 scaling MHz,    714 ARM MHz, temp=85.4'C
+  580.6     1200 scaling MHz,    723 ARM MHz, temp=85.4'C
+  596.6     1200 scaling MHz,    888 ARM MHz, temp=83.8'C
+  612.7     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  628.8     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  644.9     1200 scaling MHz,    600 ARM MHz, temp=84.9'C
+  661.0     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  677.2     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  693.3     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  709.4     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  725.5     1200 scaling MHz,    600 ARM MHz, temp=83.3'C
+  741.7     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  757.8     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  773.9     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  790.1     1200 scaling MHz,    902 ARM MHz, temp=83.8'C
+  806.1     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  822.3     1200 scaling MHz,    859 ARM MHz, temp=84.4'C
+  838.4     1200 scaling MHz,    744 ARM MHz, temp=86.0'C
+  854.5     1200 scaling MHz,    600 ARM MHz, temp=84.9'C
+  870.7     1200 scaling MHz,    600 ARM MHz, temp=84.4'C
+  886.9     1200 scaling MHz,    744 ARM MHz, temp=85.4'C
+  903.1     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  919.2     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  935.3     1200 scaling MHz,    600 ARM MHz, temp=82.7'C
+  951.5     1200 scaling MHz,    600 ARM MHz, temp=83.8'C
+  967.6      600 scaling MHz,    600 ARM MHz, temp=79.5'C
+
+ End at   Mon Jul 11 20:14:27 2016
+
+ 
+##########################################
+ Old Version
+
+ ########################################
+ With Dhrystone Benchmark duration 6 seconds
+ At 900 MHz for 14 seconds
+ ########################################
+
+ Temperature and CPU MHz Measurement
+
+ Start at Sun Mar  1 03:13:24 2015
+
+ Using 25 samples at 1 second intervals
+
+ Boot Settings
+
+ arm_freq=900
+ hdmi_force_hotplug=1
+ config_hdmi_boost=4
+ overscan_left=24
+ overscan_right=24
+ overscan_top=16
+ overscan_bottom=16
+ disable_overscan=0
+ core_freq=250
+ sdram_freq=450
+ over_voltage=0
+
+ Seconds
+    0.0   600 MHz  temp=46.5'C
+    1.0   600 MHz  temp=46.5'C
+    2.1   600 MHz  temp=46.5'C
+    3.2   600 MHz  temp=46.5'C
+    4.3   600 MHz  temp=46.5'C
+    5.3   600 MHz  temp=46.5'C
+    6.4   900 MHz  temp=46.5'C
+    7.5   900 MHz  temp=48.2'C
+    8.5   900 MHz  temp=48.2'C
+    9.6   900 MHz  temp=48.7'C
+   10.7   900 MHz  temp=48.7'C
+   11.7   900 MHz  temp=48.2'C
+   12.8   900 MHz  temp=48.7'C
+   13.8   900 MHz  temp=48.2'C
+   14.9   900 MHz  temp=48.2'C
+   15.9   900 MHz  temp=48.2'C
+   17.0   900 MHz  temp=48.2'C
+   18.0   900 MHz  temp=47.6'C
+   19.1   900 MHz  temp=47.6'C
+   20.2   900 MHz  temp=48.2'C
+   21.2   600 MHz  temp=48.2'C
+   22.3   600 MHz  temp=47.6'C
+   23.4   600 MHz  temp=47.6'C
+   24.5   600 MHz  temp=46.5'C
+   25.5   600 MHz  temp=47.1'C
+
+ End at   Sun Mar  1 03:13:50 2015
+
