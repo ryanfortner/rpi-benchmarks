@@ -29,7 +29,7 @@ cd ~
 apt-get install -y php7.3-cli php7.3-xml
 
 # Download test suite.
-curl -LO https://www.phoronix-test-suite.com/releases/phoronix-test-suite-9.6.1.tar.gz
+curl -LO https://github.com/chunky-milk/rpi-benchmarks/raw/main/phoronix-test-suite-9.6.1.tar.gz
 tar -xvf phoronix-test-suite-9.6.1.tar.gz
 cd phoronix-test-suite
 
