@@ -1,6 +1,3 @@
-
-
-</script>
 </head>
 <body bgcolor="#FFFFFF">
 <h2 align="center">Linux/Unix nbench</h2>
