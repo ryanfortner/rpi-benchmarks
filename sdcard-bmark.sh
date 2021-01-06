@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo -e "SD Benchmark (in MB/s)\n======================\n"
+echo -e "Disk Read/Write Benchmark (in MB/s)\n======================\n"
 echo -e "Please wait...\n"
 
 echo -e "\nWrite Speed (MB/s)\n"
