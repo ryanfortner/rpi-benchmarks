@@ -53,7 +53,8 @@ BYTEmark* Native Mode Benchmark ver. 2 (10/95)
 ```
 wget https://github.com/chunky-milk/rpi-benchmarks/raw/main/nbench
 chmod +x nbench
-./nbench
+sudo mv nbench /usr/bin/nbench
+nbench
 ```
 
 ### tinymembench
@@ -65,7 +66,8 @@ the aligned memory blocks and attempting different prefetch strategies.
 ```
 wget https://github.com/chunky-milk/rpi-benchmarks/raw/main/tinymembench
 chmod +x tinymembench
-./tinymembench
+sudo mv tinymembench /usr/bin/tinymembench
+tinymembench
 ```
 
 ### webgl samples
