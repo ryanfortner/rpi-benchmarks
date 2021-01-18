@@ -7,7 +7,7 @@ Information: http://www.roylongbottom.org.uk/Raspberry%20Pi%20Benchmarks.htm
 ```
 cd ~/Downloads
 wget -O Raspberry_Pi_Benchmarks.zip https://github.com/chunky-milk/rpi-benchmarks/raw/main/Linpack-Benchmarks.zip
-unzip Raspberry_Pi_Benchmarks.zip
+unzip Raspberry_Pi_Benchmarks.zip && rm Raspberry_Pi_Benchmarks.zip
 ```
 
 ### glmark2
