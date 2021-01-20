@@ -12,6 +12,7 @@ unzip Raspberry_Pi_Benchmarks.zip && rm Raspberry_Pi_Benchmarks.zip
 
 ### glmark2
 Compiled by [Novaspirit Tech](https://www.youtube.com/channel/UCrjKdwxaQMSV_NDywgKXVmw)
+
 You will need to get the mesa/vulkan drivers, instructions [here](https://github.com/chunky-milk/pi-bashscripts-files/blob/main/other/mesa-vulkan-drivers-rpi4.md)
 ```
 cd ~/
@@ -21,7 +22,8 @@ glmark2-es2
 ```
 
 ### vkmark
-Also compiled by [Novaspirit Tech](https://www.youtube.com/channel/UCrjKdwxaQMSV_NDywgKXVmw)
+Compiled by [Novaspirit Tech](https://www.youtube.com/channel/UCrjKdwxaQMSV_NDywgKXVmw)
+
 You will need to get the mesa/vulkan drivers, instructions [here](https://github.com/chunky-milk/pi-bashscripts-files/blob/main/other/mesa-vulkan-drivers-rpi4.md)
 ```
 cd ~/
@@ -31,7 +33,9 @@ vkmark
 ```
 
 ### Phoronix Test Suite
-Script by [Jeff Geerling on YouTube](https://www.youtube.com/c/JeffGeerling). GitHub: https://github.com/geerlingguy
+Script by [Jeff Geerling on YouTube](https://www.youtube.com/c/JeffGeerling). 
+
+GitHub: https://github.com/geerlingguy
 ```
 wget -O phoronix.sh https://raw.githubusercontent.com/chunky-milk/rpi-benchmarks/main/pi-benchmark-general-phoronix.sh
 sudo chmod +x phoronix.sh
