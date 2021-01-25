@@ -5,8 +5,8 @@ There are a million ways to cool down your Raspberry Pi: Small heat sinks, speci
 
 To run stressberry on your computer, simply install it with
 ```
-[sudo] apt install stress
-pip install stressberry
+sudo apt install stress python3-pip python-pip -y
+sudo pip install stressberry
 ```
 and run it with
 ```
